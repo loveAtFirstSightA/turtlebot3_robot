@@ -1,0 +1,1 @@
+ros2 launch nav2_costmap_filters_demo costmap_filter_info.launch.py params_file:=/home/lio/nav2_ws/src/navigation2_tutorials/nav2_costmap_filters_demo/params/keepout_params.yaml mask:=/home/lio/nav2_ws/src/navigation2_tutorials/nav2_costmap_filters_demo/maps/keepout_mask.yaml use_composition:=True
