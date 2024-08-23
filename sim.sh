@@ -1,7 +1,5 @@
 #!/usr/bin/bash
 
-source /opt/ros/humble/setup.bash
-export TURTLEBOT3_MODEL=waffle
-export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gazebo/models
+source install/local_setup.bash
 
-ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
+ros2 launch turtlebot3_gazebo turtlebot3_dqn_stage1.launch.py
