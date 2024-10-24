@@ -22,3 +22,6 @@
 [submodule "src/navigation2_tutorials"]
 	path = src/navigation2_tutorials
 	url = https://github.com/ros-navigation/navigation2_tutorials.git
+[submodule "src/robot_localization"]
+	path = src/robot_localization
+	url = https://github.com/cra-ros-pkg/robot_localization.git
