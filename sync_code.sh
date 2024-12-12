@@ -3,11 +3,11 @@
 # 获取当前路径
 current_dir=$(pwd)
 
-rm -f readme.md
+rm -f README.md
 
 log_info(){
     echo "$1"
-    echo "$1" >> $current_dir/readme.md
+    echo "$1" >> $current_dir/README.md
 }
 
 log_info "代码同步日志："
