@@ -11,4 +11,3 @@ ros2 launch nav2_bringup localization_launch.py use_sim_time:=True map:=$HOME/pr
 4.navigate
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/project_repository/turtlebot3_robot/maps/stage1/stage1.yaml
 
-
